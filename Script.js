@@ -59,11 +59,6 @@ function buatFooter(teks) {
     return div;
 }
 
-function skripHome() {
-    alert("Website ini bersifat subject to change.");
-    document.body.appendChild(document.createTextNode("Subject to change"));
-}
-
 function bangunHalaman() {
     var nama = halamanAktif();
     var data = HALAMAN[nama];
